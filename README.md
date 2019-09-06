@@ -1,4 +1,4 @@
-# K-Cap2019_Demo
+# K-Cap-2019-Demo
 
 ### Preparations
 * Install **Nodejs** together with **NPM** on your host system (see https://nodejs.org/en/download/).
