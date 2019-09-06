@@ -27,5 +27,5 @@ All required javascript libraries are installed automatically.
 npm start 
 ```
 * Congratulations!!! You should see how your chrome web browser is starting with the appropriate task that is trained via one of the three agents. Every agent performs ten times 1000 episodes in order to train a task. So if you let run the demo it may take several days until all agents are trained.
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "MiniWob++ Task execution")
+![alt text](https://github.com/nmerkle/K-Cap2019_Demo/blob/master/screenshot.png "MiniWob++ Task execution")
 
