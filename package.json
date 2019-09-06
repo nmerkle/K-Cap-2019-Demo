@@ -1,7 +1,7 @@
 {
-  "name": "K-Cap2019-demo",
+  "name": "K-Cap-2019-demo",
   "version": "1.0.0",
-  "description": "Demo for K-Cap2019 paper",
+  "description": "Demo for K-Cap 2019 paper",
   "private": true,
   "preferGlobal": true,
   "scripts": {
@@ -13,7 +13,6 @@
     "url": "https://github.com/nmerkle/"
   },
   "dependencies": {
-    "axios": "^0.19.0",
     "ramda": "^0.25.0",
     "reinforcenode": "^1.0.1",
     "selenium-webdriver": "^4.0.0-alpha.1"
