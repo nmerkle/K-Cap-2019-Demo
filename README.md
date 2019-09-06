@@ -1,5 +1,8 @@
 # K-Cap-2019-Demo
 
+## Preface
+> This demo presents only an excerpt of the entire agent framework that has been discussed in the K-Cap 2019 paper.
+
 ### Preparations
 * Install **Nodejs** together with **NPM** on your host system (see https://nodejs.org/en/download/).
 * Install the **Selenium Webdriver Exe** from https://www.npmjs.com/package/selenium-webdriver. 
