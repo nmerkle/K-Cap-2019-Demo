@@ -5,9 +5,10 @@
 * Install the **Selenium Webdriver Exe** from https://www.npmjs.com/package/selenium-webdriver.
 
 ### How-2-install and execute the K-Cap2019_Demo
+* Clone this repo to your host system.
 
 __Start MiniWob Server:__ 
-* Unzip the **miniwob-plusplus** zip file on your host system.
+* Unzip the **miniwob-plusplus** zip file in your cloned repo on your host system.
 * Change  via command line into directory **miniwob-pluplus/html/** and execute there:
 ``` console
 http-server
