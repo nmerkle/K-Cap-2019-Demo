@@ -8,7 +8,7 @@
     "start": "node ./Evaluation.js"
   },
   "author": {
-    "name": "Nicole Merkle",
+    "name": "N. Merkle",
     "email": "merkle@fzi.de",
     "url": "https://github.com/nmerkle/"
   },
