@@ -8,7 +8,7 @@
 __Start MiniWob Server:__ 
 * Unzip the **miniwob-plusplus** zip file on your host system.
 * Change into directory **miniwob-pluplus/html/** and execute there via command line:
-``` sh
+``` console
 http-server
 ```
 MiniWob++ starts and is accessible via http://localhost:8080/miniwob/
@@ -22,4 +22,6 @@ npm install
 ``` console
 node ./Evaluation.js 
 ```
-* Congratulations!!! if you see how a chrome webdriver is starting with the appropriate task that is trained.
+* Congratulations!!! You should see how your chrome web browser is starting with the appropriate task that is trained via an agent.
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "MiniWob++ Task execution")
+
