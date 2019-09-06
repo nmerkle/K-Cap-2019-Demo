@@ -1,7 +1,7 @@
 # K-Cap-2019-Demo
 
 ## Preface
-> This demo presents only an excerpt of the entire agent framework that has been discussed in the K-Cap 2019 paper.
+> This demo presents only an excerpt of the entire agent framework that has been implemented and discussed in the K-Cap 2019 paper. The idea of this demo is to show how the **Miniwob++** benchmark was utilized for evaluating different agents (e.g. Trained DQNN agent, untrained DQNN agent, rule-based agent) regarding adaptivity. Therefore, we pretrained by the simulation framework and a task instance (see task.json) a DQNN (see MiniWob.json) that is utilized by one of the agents (QLearnAgent). As we illustrate in the paper, the pre-trained agent outperforms the other agents in certain web tasks. With this demo, we want to make our evaluation reproducible for the reviewers of the K-Cap 2019 conference. 
 
 ### Preparations
 * Install **Nodejs** together with **NPM** on your host system (see https://nodejs.org/en/download/).
