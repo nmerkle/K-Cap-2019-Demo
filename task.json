@@ -1,0 +1,1973 @@
+[
+  {
+    "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/BookCheapestFlight",
+    "@type": [
+      "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Category-3AAction"
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasEffect": [
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/ConvertCheapestFlightBooked"
+      }
+    ]
+  },
+  {
+    "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/BookShortestFlight",
+    "@type": [
+      "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Category-3AAction"
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasEffect": [
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/ConvertShortestFlightBooked"
+      }
+    ]
+  },
+  {
+    "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/ButtonClickedByLabel",
+    "@type": [
+      "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Category-3AObservationFeature"
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasFeatureType": [
+      {
+        "@value": "NOMINAL"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasRangeEnd": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "1"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasRangeStart": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "0"
+      }
+    ]
+  },
+  {
+    "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/ButtonSelectableByLabel",
+    "@type": [
+      "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Category-3AState"
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasAction": [
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/ClickButtonByLabel"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasExpression": [
+      {
+        "@value": "(IsLabelButton == 1 OR IsSubmitButton == 1 OR IsSearchButton == 1) AND ButtonClickedByLabel == 0 AND LabelsInInstructionText == 1 AND IsCheckbox == 0 AND IsOption == 0 AND IsFlightDatePicker == 0 AND IsFlightFromField == 0 AND IsFlightToField == 0"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasObservationFeature": [
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsCheckbox"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsOption"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsSubmitButton"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/LabelsInInstructionText"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsLabelButton"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsFlightDatePicker"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsSearchButton"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsFlightFromField"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsFlightToField"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/ButtonClickedByLabel"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasReward": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "0"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AIsGoal": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": "false"
+      }
+    ]
+  },
+  {
+    "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/CheapestFlightBookable",
+    "@type": [
+      "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Category-3AState"
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasAction": [
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/BookCheapestFlight"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasExpression": [
+      {
+        "@value": "IsBookCheapest == 1 AND IsBookShortest == 0 AND FlightDateEntered == 1 AND FlightFromEntered == 1 AND FlightToEntered == 1 AND SearchButtonClicked == 1"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasObservationFeature": [
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsBookCheapest"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsBookShortest"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/FlightDateEntered"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/FlightFromEntered"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/FlightToEntered"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/SearchButtonClicked"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasReward": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "0"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AIsGoal": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": "false"
+      }
+    ]
+  },
+  {
+    "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/CheapestFlightBooked",
+    "@type": [
+      "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Category-3AObservationFeature"
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasFeatureType": [
+      {
+        "@value": "NOMINAL"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasRangeEnd": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "1"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasRangeStart": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "0"
+      }
+    ]
+  },
+  {
+    "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/CheckBoxSelectableByLabel",
+    "@type": [
+      "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Category-3AState"
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasAction": [
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/ClickCheckboxByLabel"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasExpression": [
+      {
+        "@value": "IsCheckbox == 1 AND LabelsInInstructionText == 1 AND CheckboxClickedByLabel == 0 AND IsOption == 0 AND IsFlightDatePicker == 0 AND IsFlightFromField == 0 AND IsFlightToField == 0 AND CheckboxClickedBySynonym == 0"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasObservationFeature": [
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsCheckbox"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsOption"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/CheckboxClickedByLabel"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/LabelsInInstructionText"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsFlightDatePicker"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsFlightFromField"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsFlightToField"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/CheckboxClickedBySynonym"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasReward": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "0"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AIsGoal": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": "false"
+      }
+    ]
+  },
+  {
+    "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/CheckboxClickedByLabel",
+    "@type": [
+      "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Category-3AObservationFeature"
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasFeatureType": [
+      {
+        "@value": "NOMINAL"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasRangeEnd": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "1"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasRangeStart": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "0"
+      }
+    ]
+  },
+  {
+    "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/CheckboxClickedBySynonym",
+    "@type": [
+      "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Category-3AObservationFeature"
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasFeatureType": [
+      {
+        "@value": "NOMINAL"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasRangeEnd": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "1"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasRangeStart": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "0"
+      }
+    ]
+  },
+  {
+    "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/CheckboxSelectableBySynonym",
+    "@type": [
+      "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Category-3AState"
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasAction": [
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/ClickCheckboxBySynonym"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasExpression": [
+      {
+        "@value": "IsCheckbox == 1 AND LabelsInInstructionText == 1 AND CheckboxClickedBySynonym == 0 AND CheckboxClickedByLabel == 0 AND IsOption == 0 AND IsFlightDatePicker == 0 AND IsFlightFromField == 0 AND IsFlightToField == 0"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasObservationFeature": [
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsCheckbox"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsOption"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/CheckboxClickedBySynonym"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/LabelsInInstructionText"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsFlightDatePicker"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsFlightFromField"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsFlightToField"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/CheckboxClickedByLabel"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasReward": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "0"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AIsGoal": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": "false"
+      }
+    ]
+  },
+  {
+    "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/CheckboxTopic",
+    "@type": [
+      "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Category-3ATopic"
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasName": [
+      {
+        "@value": "checkboxTopic"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasObservationFeature": [
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsCheckbox"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/CheckboxClickedByLabel"
+      }
+    ]
+  },
+  {
+    "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/ClickButtonByLabel",
+    "@type": [
+      "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Category-3AAction"
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasEffect": [
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/ConvertButtonClickedByLabel"
+      }
+    ]
+  },
+  {
+    "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/ClickCheckboxByLabel",
+    "@type": [
+      "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Category-3AAction"
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasEffect": [
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/ConvertCheckboxClickedByLabel"
+      }
+    ]
+  },
+  {
+    "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/ClickCheckboxBySynonym",
+    "@type": [
+      "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Category-3AAction"
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasEffect": [
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/ConvertCheckboxClickedBySynonym"
+      }
+    ]
+  },
+  {
+    "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/ClickSearchButton",
+    "@type": [
+      "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Category-3AAction"
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasEffect": [
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/ConvertSearchButtonClicked"
+      }
+    ]
+  },
+  {
+    "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/ClickSubmitButton",
+    "@type": [
+      "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Category-3AAction"
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasEffect": [
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/ConvertSubmitButtonClicked"
+      }
+    ]
+  },
+  {
+    "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/ConvertButtonClickedByLabel",
+    "@type": [
+      "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Category-3AEffect"
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasImpactRange": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "1"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasImpactType": [
+      {
+        "@value": "ON"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasObservationFeature": [
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/ButtonClickedByLabel"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasPunishmentRule": [
+      {
+        "@value": "OptionSelectableByLabel OR CheckBoxSelectableByLabel OR SubmitButtonClickable OR FlightDateSelectableByPicker OR SearchButtonClickable OR FlightFromEnterable OR FlightToEnterable = -1"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasRewardRule": [
+      {
+        "@value": "ButtonSelectableByLabel = 1"
+      }
+    ]
+  },
+  {
+    "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/ConvertCheapestFlightBooked",
+    "@type": [
+      "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Category-3AEffect"
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasImpactRange": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "1"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasImpactType": [
+      {
+        "@value": "ON"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasObservationFeature": [
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/CheapestFlightBooked"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasPunishmentRule": [
+      {
+        "@value": "ShortestFlightBookable = -1"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasRewardRule": [
+      {
+        "@value": "CheapestFlightBookable = 1"
+      }
+    ]
+  },
+  {
+    "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/ConvertCheckboxClickedByLabel",
+    "@type": [
+      "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Category-3AEffect"
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasImpactRange": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "1"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasImpactType": [
+      {
+        "@value": "CONVERT"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasObservationFeature": [
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/CheckboxClickedByLabel"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasPunishmentRule": [
+      {
+        "@value": "OptionSelectableByLabel OR ButtonSelectableByLabel OR FlightDateSelectableByPicker OR SearchButtonClickable OR FlightFromEnterable OR FlightToEnterable = -1"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasRewardRule": [
+      {
+        "@value": "CheckBoxSelectableByLabel = 1"
+      }
+    ]
+  },
+  {
+    "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/ConvertCheckboxClickedBySynonym",
+    "@type": [
+      "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Category-3AEffect"
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasImpactRange": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "1"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasImpactType": [
+      {
+        "@value": "CONVERT"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasObservationFeature": [
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/CheckboxClickedBySynonym"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasPunishmentRule": [
+      {
+        "@value": "OptionSelectableByLabel OR ButtonSelectableByLabel OR FlightDateSelectableByPicker OR SearchButtonClickable OR FlightFromEnterable OR FlightToEnterable = -1"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasRewardRule": [
+      {
+        "@value": "CheckboxSelectableBySynonym = 1"
+      }
+    ]
+  },
+  {
+    "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/ConvertFlightDateSelected",
+    "@type": [
+      "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Category-3AEffect"
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasImpactRange": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "1"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasImpactType": [
+      {
+        "@value": "ON"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasObservationFeature": [
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/FlightDateEntered"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasPunishmentRule": [
+      {
+        "@value": "OptionSelectableByLabel OR CheckBoxSelectableByLabel OR SubmitButtonClickable OR ButtonSelectableByLabel = -1"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasRewardRule": [
+      {
+        "@value": "FlightDateSelectableByPicker = 1"
+      }
+    ]
+  },
+  {
+    "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/ConvertFlightFromEntered",
+    "@type": [
+      "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Category-3AEffect"
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasImpactRange": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "1"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasImpactType": [
+      {
+        "@value": "ON"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasObservationFeature": [
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/FlightFromEntered"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasPunishmentRule": [
+      {
+        "@value": "OptionSelectableByLabel OR CheckBoxSelectableByLabel OR SubmitButtonClickable OR ButtonSelectableByLabel = -1"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasRewardRule": [
+      {
+        "@value": "FlightFromEnterable = 1"
+      }
+    ]
+  },
+  {
+    "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/ConvertFlightToEntered",
+    "@type": [
+      "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Category-3AEffect"
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasImpactRange": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "1"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasImpactType": [
+      {
+        "@value": "ON"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasObservationFeature": [
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/FlightToEntered"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasPunishmentRule": [
+      {
+        "@value": "OptionSelectableByLabel OR CheckBoxSelectableByLabel OR SubmitButtonClickable OR ButtonSelectableByLabel = -1"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasRewardRule": [
+      {
+        "@value": "FlightToEnterable = 1"
+      }
+    ]
+  },
+  {
+    "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/ConvertOptionSelectedByLabel",
+    "@type": [
+      "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Category-3AEffect"
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasImpactRange": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "1"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasImpactType": [
+      {
+        "@value": "ON"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasObservationFeature": [
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/ListOptionClickedByLabel"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasPunishmentRule": [
+      {
+        "@value": "CheckBoxSelectableByLabel OR ButtonSelectableByLabel OR FlightDateSelectableByPicker OR SearchButtonClickable OR FlightFromEnterable OR FlightToEnterable = -1"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasRewardRule": [
+      {
+        "@value": "OptionSelectableByLabel = 1"
+      }
+    ]
+  },
+  {
+    "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/ConvertSearchButtonClicked",
+    "@type": [
+      "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Category-3AEffect"
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasImpactRange": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "1"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasImpactType": [
+      {
+        "@value": "ON"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasObservationFeature": [
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/SearchButtonClicked"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasPunishmentRule": [
+      {
+        "@value": "FlightDateSelectableByPicker OR FlightFromEnterable OR FlightToEnterable OR OptionSelectableByLabel OR CheckBoxSelectableByLabel OR SubmitButtonClickable OR ButtonSelectableByLabel = -1"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasRewardRule": [
+      {
+        "@value": "SearchButtonClickable = 1"
+      }
+    ]
+  },
+  {
+    "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/ConvertShortestFlightBooked",
+    "@type": [
+      "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Category-3AEffect"
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasImpactRange": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "1"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasImpactType": [
+      {
+        "@value": "ON"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasObservationFeature": [
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/ShortestFlightBooked"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasPunishmentRule": [
+      {
+        "@value": "CheapestFlightBookable = -1"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasRewardRule": [
+      {
+        "@value": "ShortestFlightBookable = 1"
+      }
+    ]
+  },
+  {
+    "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/ConvertSubmitButtonClicked",
+    "@type": [
+      "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Category-3AEffect"
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasImpactRange": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "1"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasImpactType": [
+      {
+        "@value": "ON"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasObservationFeature": [
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/SubmitButtonClicked"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasPunishmentRule": [
+      {
+        "@value": "OptionSelectableByLabel OR CheckBoxSelectableByLabel OR ButtonSelectableByLabel OR FlightDateSelectableByPicker OR SearchButtonClickable OR FlightFromEnterable OR FlightToEnterable = -1"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasRewardRule": [
+      {
+        "@value": "SubmitButtonClickable = 1"
+      }
+    ]
+  },
+  {
+    "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/EnterFlightDate",
+    "@type": [
+      "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Category-3AAction"
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasEffect": [
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/ConvertFlightDateSelected"
+      }
+    ]
+  },
+  {
+    "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/EnterFlightFrom",
+    "@type": [
+      "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Category-3AAction"
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasEffect": [
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/ConvertFlightFromEntered"
+      }
+    ]
+  },
+  {
+    "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/EnterFlightTo",
+    "@type": [
+      "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Category-3AAction"
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasEffect": [
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/ConvertFlightToEntered"
+      }
+    ]
+  },
+  {
+    "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/FlightBookingTopic",
+    "@type": [
+      "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Category-3ATopic"
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasName": [
+      {
+        "@value": "flightBookingTopic"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasObservationFeature": [
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsFlightDatePicker"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsFlightFromField"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsFlightToField"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsSearchButton"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/SearchButtonClicked"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/FlightDateEntered"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/FlightFromEntered"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/FlightToEntered"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsBookCheapest"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsBookShortest"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/CheapestFlightBooked"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/ShortestFlightBooked"
+      }
+    ]
+  },
+  {
+    "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/FlightDateEntered",
+    "@type": [
+      "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Category-3AObservationFeature"
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasFeatureType": [
+      {
+        "@value": "NOMINAL"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasRangeEnd": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "1"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasRangeStart": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "0"
+      }
+    ]
+  },
+  {
+    "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/FlightDateSelectableByPicker",
+    "@type": [
+      "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Category-3AState"
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasAction": [
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/EnterFlightDate"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasExpression": [
+      {
+        "@value": "IsFlightDatePicker == 1 AND FlightDateEntered == 0 AND IsCheckbox == 0 AND IsOption == 0 AND IsSubmitButton == 0 AND IsLabelButton == 0 AND IsSearchButton == 1 AND IsFlightFromField == 1 AND IsFlightToField == 1"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasObservationFeature": [
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsCheckbox"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsOption"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsSubmitButton"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsLabelButton"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsFlightDatePicker"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsSearchButton"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsFlightFromField"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsFlightToField"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/FlightDateEntered"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasReward": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "0"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AIsGoal": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": "false"
+      }
+    ]
+  },
+  {
+    "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/FlightFromEnterable",
+    "@type": [
+      "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Category-3AState"
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasAction": [
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/EnterFlightFrom"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasExpression": [
+      {
+        "@value": "IsFlightFromField == 1 AND FlightFromEntered == 0 AND IsCheckbox == 0 AND IsOption == 0 AND IsSubmitButton == 0 AND IsLabelButton == 0 AND IsFlightDatePicker == 1 AND IsSearchButton == 1 AND IsFlightToField == 1"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasObservationFeature": [
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsCheckbox"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsOption"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsSubmitButton"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsLabelButton"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsFlightDatePicker"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsSearchButton"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsFlightFromField"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsFlightToField"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/FlightFromEntered"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasReward": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "0"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AIsGoal": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": "false"
+      }
+    ]
+  },
+  {
+    "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/FlightFromEntered",
+    "@type": [
+      "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Category-3AObservationFeature"
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasFeatureType": [
+      {
+        "@value": "NOMINAL"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasRangeEnd": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "1"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasRangeStart": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "0"
+      }
+    ]
+  },
+  {
+    "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/FlightToEnterable",
+    "@type": [
+      "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Category-3AState"
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasAction": [
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/EnterFlightTo"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasExpression": [
+      {
+        "@value": "IsFlightToField == 1 AND FlightToEntered == 0 AND IsCheckbox == 0 AND IsOption == 0 AND IsSubmitButton == 0 AND IsLabelButton == 0 AND IsFlightDatePicker == 1 AND IsFlightToField == 1 AND IsSearchButton == 1"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasObservationFeature": [
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsCheckbox"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsOption"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsSubmitButton"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsLabelButton"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsFlightDatePicker"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsSearchButton"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsFlightFromField"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsFlightToField"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/FlightToEntered"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasReward": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "0"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AIsGoal": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": "false"
+      }
+    ]
+  },
+  {
+    "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/FlightToEntered",
+    "@type": [
+      "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Category-3AObservationFeature"
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasFeatureType": [
+      {
+        "@value": "NOMINAL"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasRangeEnd": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "1"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasRangeStart": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "0"
+      }
+    ]
+  },
+  {
+    "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsBookCheapest",
+    "@type": [
+      "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Category-3AObservationFeature"
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasFeatureType": [
+      {
+        "@value": "NOMINAL"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasRangeEnd": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "1"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasRangeStart": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "0"
+      }
+    ]
+  },
+  {
+    "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsBookShortest",
+    "@type": [
+      "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Category-3AObservationFeature"
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasFeatureType": [
+      {
+        "@value": "NOMINAL"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasRangeEnd": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "1"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasRangeStart": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "0"
+      }
+    ]
+  },
+  {
+    "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsCheckbox",
+    "@type": [
+      "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Category-3AObservationFeature"
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasFeatureType": [
+      {
+        "@value": "NOMINAL"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasRangeEnd": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "1"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasRangeStart": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "0"
+      }
+    ]
+  },
+  {
+    "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsFlightDatePicker",
+    "@type": [
+      "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Category-3AObservationFeature"
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasFeatureType": [
+      {
+        "@value": "NOMINAL"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasRangeEnd": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "1"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasRangeStart": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "0"
+      }
+    ]
+  },
+  {
+    "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsFlightFromField",
+    "@type": [
+      "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Category-3AObservationFeature"
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasFeatureType": [
+      {
+        "@value": "NOMINAL"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasRangeEnd": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "1"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasRangeStart": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "0"
+      }
+    ]
+  },
+  {
+    "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsFlightToField",
+    "@type": [
+      "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Category-3AObservationFeature"
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasFeatureType": [
+      {
+        "@value": "NOMINAL"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasRangeEnd": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "1"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasRangeStart": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "0"
+      }
+    ]
+  },
+  {
+    "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsLabelButton",
+    "@type": [
+      "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Category-3AObservationFeature"
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasFeatureType": [
+      {
+        "@value": "NOMINAL"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasRangeEnd": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "1"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasRangeStart": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "0"
+      }
+    ]
+  },
+  {
+    "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsOption",
+    "@type": [
+      "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Category-3AObservationFeature"
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasFeatureType": [
+      {
+        "@value": "NOMINAL"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasRangeEnd": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "1"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasRangeStart": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "0"
+      }
+    ]
+  },
+  {
+    "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsSearchButton",
+    "@type": [
+      "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Category-3AObservationFeature"
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasFeatureType": [
+      {
+        "@value": "NOMINAL"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasRangeEnd": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "1"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasRangeStart": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "0"
+      }
+    ]
+  },
+  {
+    "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsSubmitButton",
+    "@type": [
+      "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Category-3AObservationFeature"
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasFeatureType": [
+      {
+        "@value": "NOMINAL"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasRangeEnd": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "1"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasRangeStart": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "0"
+      }
+    ]
+  },
+  {
+    "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/LabelButtonTopic",
+    "@type": [
+      "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Category-3ATopic"
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasName": [
+      {
+        "@value": "labelButtonTopic"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasObservationFeature": [
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsLabelButton"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/ButtonClickedByLabel"
+      }
+    ]
+  },
+  {
+    "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/LabelInstructionTextTopic",
+    "@type": [
+      "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Category-3ATopic"
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasName": [
+      {
+        "@value": "labelInstructionTopic"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasObservationFeature": [
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/LabelsInInstructionText"
+      }
+    ]
+  },
+  {
+    "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/LabelsInInstructionText",
+    "@type": [
+      "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Category-3AObservationFeature"
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasFeatureType": [
+      {
+        "@value": "NOMINAL"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasRangeEnd": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "1"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasRangeStart": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "0"
+      }
+    ]
+  },
+  {
+    "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/ListOptionClickedByLabel",
+    "@type": [
+      "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Category-3AObservationFeature"
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasFeatureType": [
+      {
+        "@value": "NOMINAL"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasRangeEnd": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "1"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasRangeStart": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "0"
+      }
+    ]
+  },
+  {
+    "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/ListOptionTopic",
+    "@type": [
+      "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Category-3ATopic"
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasName": [
+      {
+        "@value": "listOptionTopic"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasObservationFeature": [
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsOption"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/ListOptionClickedByLabel"
+      }
+    ]
+  },
+  {
+    "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/MiniWobTask",
+    "@type": [
+      "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Category-3ATask"
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasAction": [
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/ClickCheckboxByLabel"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/SelectOptionByLabel"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/ClickSubmitButton"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/ClickButtonByLabel"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/EnterFlightFrom"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/EnterFlightTo"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/EnterFlightDate"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/ClickSearchButton"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/BookCheapestFlight"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/BookShortestFlight"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/ClickCheckboxBySynonym"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasObservationFeature": [
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsCheckbox"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsOption"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsSubmitButton"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/CheckboxClickedByLabel"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/ListOptionClickedByLabel"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/SubmitButtonClicked"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/LabelsInInstructionText"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsLabelButton"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsFlightDatePicker"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsSearchButton"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsFlightFromField"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsFlightToField"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/ButtonClickedByLabel"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/SearchButtonClicked"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/FlightFromEntered"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/FlightToEntered"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/FlightDateEntered"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsBookCheapest"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsBookShortest"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/CheapestFlightBooked"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/ShortestFlightBooked"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/CheckboxClickedBySynonym"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasState": [
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/OptionSelectableByLabel"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/CheckBoxSelectableByLabel"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/SubmitButtonClickable"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/WebTaskFinished"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/ButtonSelectableByLabel"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/FlightDateSelectableByPicker"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/SearchButtonClickable"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/FlightFromEnterable"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/FlightToEnterable"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/ShortestFlightBookable"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/CheapestFlightBookable"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/CheckboxSelectableBySynonym"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasStatus": [
+      {
+        "@value": "OPEN"
+      }
+    ]
+  },
+  {
+    "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/OptionSelectableByLabel",
+    "@type": [
+      "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Category-3AState"
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasAction": [
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/SelectOptionByLabel"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasExpression": [
+      {
+        "@value": "IsOption == 1 AND ListOptionClickedByLabel == 0 AND LabelsInInstructionText == 1 AND IsCheckbox == 0 AND IsFlightDatePicker == 0 AND IsFlightFromField == 0 AND IsFlightToField == 0"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasObservationFeature": [
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsCheckbox"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsOption"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/ListOptionClickedByLabel"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/LabelsInInstructionText"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsFlightDatePicker"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsFlightFromField"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsFlightToField"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasReward": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "0"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AIsGoal": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": "false"
+      }
+    ]
+  },
+  {
+    "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/RLAgent",
+    "@type": [
+      "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Category-3AAgent"
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasDiscountFactor": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "0.6"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasEpsilon": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "0.5"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasLearningRate": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "0.005"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasPassword": [
+      {
+        "@value": "9ahrn5am8c2rodavea287jvfsijmq93s"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasTask": [
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/MiniWobTask"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasUsername": [
+      {
+        "@value": "Admin@RLAgent"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3ASubscribesFor": [
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/SubmitButtonTopic"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/LabelInstructionTextTopic"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/LabelButtonTopic"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/FlightBookingTopic"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/CheckboxTopic"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/ListOptionTopic"
+      }
+    ]
+  },
+  {
+    "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/SearchButtonClickable",
+    "@type": [
+      "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Category-3AState"
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasAction": [
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/ClickSearchButton"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasExpression": [
+      {
+        "@value": "(IsSearchButton == 1 OR IsSubmitButton == 1 OR IsLabelButton == 1) AND SearchButtonClicked == 0 AND IsCheckbox == 0 AND IsOption == 0 AND IsFlightDatePicker == 1 AND IsFlightFromField == 1 AND IsFlightToField == 1 AND FlightFromEntered == 1 AND FlightToEntered == 1 AND FlightDateEntered == 1"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasObservationFeature": [
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsCheckbox"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsOption"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsSubmitButton"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsLabelButton"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsFlightDatePicker"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsSearchButton"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsFlightFromField"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsFlightToField"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/SearchButtonClicked"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/FlightFromEntered"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/FlightToEntered"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/FlightDateEntered"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasReward": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "0"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AIsGoal": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": "false"
+      }
+    ]
+  },
+  {
+    "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/SearchButtonClicked",
+    "@type": [
+      "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Category-3AObservationFeature"
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasFeatureType": [
+      {
+        "@value": "NOMINAL"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasRangeEnd": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "1"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasRangeStart": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "0"
+      }
+    ]
+  },
+  {
+    "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/SelectOptionByLabel",
+    "@type": [
+      "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Category-3AAction"
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasEffect": [
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/ConvertOptionSelectedByLabel"
+      }
+    ]
+  },
+  {
+    "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/ShortestFlightBookable",
+    "@type": [
+      "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Category-3AState"
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasAction": [
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/BookShortestFlight"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasExpression": [
+      {
+        "@value": "IsBookCheapest == 0 AND IsBookShortest == 1 AND FlightDateEntered == 1 AND FlightFromEntered == 1 AND FlightToEntered == 1 AND SearchButtonClicked == 1"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasObservationFeature": [
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsBookCheapest"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsBookShortest"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/FlightDateEntered"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/FlightFromEntered"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/FlightToEntered"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/SearchButtonClicked"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasReward": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "0"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AIsGoal": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": "false"
+      }
+    ]
+  },
+  {
+    "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/ShortestFlightBooked",
+    "@type": [
+      "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Category-3AObservationFeature"
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasFeatureType": [
+      {
+        "@value": "NOMINAL"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasRangeEnd": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "1"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasRangeStart": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "0"
+      }
+    ]
+  },
+  {
+    "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/SubmitButtonClickable",
+    "@type": [
+      "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Category-3AState"
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasAction": [
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/ClickSubmitButton"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasExpression": [
+      {
+        "@value": "(IsSubmitButton == 1 AND SubmitButtonClicked == 0) AND ((IsCheckbox == 1 OR IsOption == 1) AND (CheckboxClickedByLabel == 1 OR ListOptionClickedByLabel == 1 OR CheckboxClickedBySynonym))"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasObservationFeature": [
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsCheckbox"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsOption"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsSubmitButton"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/CheckboxClickedByLabel"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/ListOptionClickedByLabel"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/SubmitButtonClicked"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/CheckboxClickedBySynonym"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasReward": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "0"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AIsGoal": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": "false"
+      }
+    ]
+  },
+  {
+    "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/SubmitButtonClicked",
+    "@type": [
+      "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Category-3AObservationFeature"
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasFeatureType": [
+      {
+        "@value": "NOMINAL"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasRangeEnd": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "1"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasRangeStart": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "0"
+      }
+    ]
+  },
+  {
+    "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/SubmitButtonTopic",
+    "@type": [
+      "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Category-3ATopic"
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasName": [
+      {
+        "@value": "submitButtonTopic"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasObservationFeature": [
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/IsSubmitButton"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/SubmitButtonClicked"
+      }
+    ]
+  },
+  {
+    "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/WebTaskFinished",
+    "@type": [
+      "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Category-3AState"
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasExpression": [
+      {
+        "@value": "SubmitButtonClicked == 1 OR ButtonClickedByLabel == 1 OR CheapestFlightBooked == 1 OR ShortestFlightBooked == 1"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasObservationFeature": [
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/SubmitButtonClicked"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/ButtonClickedByLabel"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/CheapestFlightBooked"
+      },
+      {
+        "@id": "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/ShortestFlightBooked"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AHasReward": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "0"
+      }
+    ],
+    "http://ipe-kalmar50.fzi.de/mediawiki/index.php/Special:URIResolver/Property-3AIsGoal": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": "true"
+      }
+    ]
+  }
+]
