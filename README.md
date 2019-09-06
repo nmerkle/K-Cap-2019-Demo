@@ -1,7 +1,7 @@
 # K-Cap2019_Demo
 
 ### Preparations
-* Install Nodejs together with NPM on your host system (see https://nodejs.org/en/download/).
+* Install **Nodejs** together with **NPM** on your host system (see https://nodejs.org/en/download/).
 * Install the **Selenium Webdriver Exe** from https://www.npmjs.com/package/selenium-webdriver. 
 <dl><p style="color:red">The demo is only implemented for and evaluated with <b>Chrome</b> web driver.</p></dl>
 
@@ -9,7 +9,7 @@
 * Clone this repo to your host system.
 
 __Start MiniWob Server:__ 
-* Unzip the **miniwob-plusplus** zip file in your cloned repo on your host system.
+* Unzip the **miniwob-plusplus zip** file in your cloned repo on your host system.
 * Change  via command line into directory **miniwob-pluplus/html/** and execute there:
 ``` console
 http-server
