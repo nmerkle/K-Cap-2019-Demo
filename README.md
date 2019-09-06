@@ -20,7 +20,7 @@ npm install
 ```
 * Finally, execute:
 ``` console
-node ./Evaluation.js 
+npm start 
 ```
 * Congratulations!!! You should see how your chrome web browser is starting with the appropriate task that is trained via an agent.
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "MiniWob++ Task execution")
