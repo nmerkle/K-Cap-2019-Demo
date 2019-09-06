@@ -2,6 +2,9 @@
 
 ## Preface
 > This demo presents only an **excerpt** of the entire agent framework that has been implemented and discussed in the K-Cap 2019 paper. The idea of this demo is to show how the **[Miniwob++](https://github.com/stanfordnlp/miniwob-plusplus)** benchmark was utilized for evaluating different agents (e.g. trained DQNN agent, untrained DQNN agent, rule-based agent) regarding warm-start and adaptivity to new tasks. Therefore, we pre-trained by the simulation framework (see previous works **[[1]](http://few.vu.nl/~vbr240/semantics2018/Semantics_2018_paper_33.pdf)** and **[[2]](https://link.springer.com/chapter/10.1007/978-3-030-03667-6_16))** and a created **[JSON-LD task instance](https://raw.githubusercontent.com/nmerkle/K-Cap-2019-Demo/master/task.json)** representing the considered MiniWob web tasks, a **[DQNN](https://raw.githubusercontent.com/nmerkle/K-Cap-2019-Demo/master/MiniWobTask.json)** that is utilized by one of the agents (QLearnAgent). As we illustrate in the paper, the pre-trained agent outperforms the other agents regarding warm-start and success rate which is measured by the cumulative rewards. With this demo, we want to make our evaluation that we conducted for the K-Cap paper, reproducible for the reviewers of the K-Cap 2019 conference. 
+The web tasks are represented by a Markov Decision Process (MDP) that is illustrated in the following image:
+
+![alt text](https://github.com/nmerkle/K-Cap-2019-Demo/blob/master/MDP.png "Simplified MDP for the considered web tasks")
 
 ### Preparations
 The demo is only implemented for and evaluated with <b>Chrome</b> web driver and was tested on a Windows OS. For other OSs (e.g. Linux, Mac, Unix) please consider and use the appropriate driver executables.
