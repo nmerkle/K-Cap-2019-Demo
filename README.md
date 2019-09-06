@@ -3,9 +3,9 @@
 ### Preparations
 * Install **Nodejs** together with **NPM** on your host system (see https://nodejs.org/en/download/).
 * Install the **Selenium Webdriver Exe** from https://www.npmjs.com/package/selenium-webdriver. 
-<dl><p style="color:red">The demo is only implemented for and evaluated with <b>Chrome</b> web driver and was tested on a Windows OS. For other OSs (e.g. Linux, Mac, Unix) please consider the appropriate driver executables.</p></dl>
+<dl><p style="color:red">The demo is only implemented for and evaluated with <b>Chrome</b> web driver and was tested on a Windows OS. For other OSs (e.g. Linux, Mac, Unix) please consider and use the appropriate driver executables.</p></dl>
 
-### How-2-install and execute the K-Cap2019_Demo
+### How-to-install and execute the K-Cap2019_Demo
 * Clone this repo to your host system.
 
 __Start MiniWob Server:__ 
