@@ -15,6 +15,8 @@ The demo is only implemented for and evaluated with Selenium <b>Chrome</b> web d
 ### How-to-install and execute the K-Cap-2019-Demo
 * Clone this repo to your host system.
 
+---
+
 __Start MiniWob Server:__ 
 * Unzip the **miniwob-plusplus zip** file in your cloned repo on your host system.
 * Change  via command line into directory **miniwob-plusplus/html/** and execute there:
@@ -22,6 +24,8 @@ __Start MiniWob Server:__
 http-server
 ```
 MiniWob++ starts and its web tasks are accessible via http://localhost:8080/miniwob/.
+
+---
 
 __Configuration of the Demo:__
 
@@ -32,6 +36,8 @@ It is not required to change the configuration of the demo. However, you have th
 * EPISODES -- The number of episodes that shall be performed for a task.
 * ITERATIONS -- The number of task execution. 
 * BROWSER -- Supported browser. In this demo the Chrome web driver has been utilized. However, it is also possible to execute other browsers (e.g. Mozilla Firefox, Opera, etc.) if the appropriate Selenium web driver is installed on the host system.
+
+---
 
 __Start Demo:__ 
 * Go into the **K-Cap-2019-Demo** directory and execute via command line: 
