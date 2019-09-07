@@ -1,13 +1,12 @@
 #!/usr/bin/env node
 
 const {Builder, By, Key, until} = require('selenium-webdriver')
-//const actions = ['LowBodyWeight', 'NormalBodyWeight', 'HighBodyWeight']
 const RL = require('reinforcenode')
 const {readFileSync, writeFileSync, existsSync} = require('fs')
-//const datamuse = require('datamuse')
 const R = require('ramda')
 const {reasonState, getTaskProfile, getRandomInt, getStringHash, getRandomDouble, updateStateFeaturesToNextState,
     parseExpression, parseComplexExpression} = require('./utils')
+require('dotenv').load()
 
 async function initDriver(URI, browser = 'chrome') {
     let driver = await new Builder().forBrowser(browser).build()
@@ -32,7 +31,6 @@ async function getOptionLabels(driver) {
     for(let t of values) {
         const text = await t.getText()
         labels.push(text)
-        //console.log(text)
     }
     return labels
 }
@@ -1636,9 +1634,7 @@ async function evalAlgorithm(alogritms, algo, web, actions, episodes, repeat, we
 }
 
 async function main(episodes, browser) {
-    const websites = ['click-checkboxes', 'click-checkboxes-soft', 'click-checkboxes-large', 'click-checkboxes-transfer',
-         'click-button', 'click-button-sequence',
-        'choose-list', 'book-flight', 'book-flight-nodelay']
+    const websites = process.env.TASKS.split(",")
     const task = getTaskProfile()
     const algorithms = {/*RLAgent: selectAction,*/ QLearnAgent: act, KarpathyAgent: act2, RuleBasedAgent: ruleBasedAction}
     const actions = Object.keys(task.actions)
@@ -1648,9 +1644,12 @@ async function main(episodes, browser) {
     for(let web of websites) {
         const website = `http://localhost:8080/miniwob/${web}.html`
         for (let algo in algorithms) {
-            await evalAlgorithm(algorithms, algo, web, actionsFunc, episodes, 10, website, browser, 0.01, 0.1)
+            const iterations = parseFloat(process.env.ITERATIONS)
+            const learningrate = parseFloat(process.env.LEARNING_RATE)
+            const epsilon = parseFloat(process.env.EPSILON)
+            await evalAlgorithm(algorithms, algo, web, actionsFunc, episodes, iterations, website, browser, learningrate, epsilon)
         }
     }
 }
 
-main(1000, 'chrome')
+main(parseFloat(process.env.EPISODES), process.env.BROWSER)
