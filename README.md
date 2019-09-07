@@ -7,7 +7,7 @@ The MiniWob web task is represented by a simplified Markov Decision Process (MDP
 ![alt text](https://github.com/nmerkle/K-Cap-2019-Demo/blob/master/MDP.png "Simplified MDP for the considered web tasks")
 
 ### Preparations
-The demo is only implemented for and evaluated with Selenium <b>Chrome</b> web driver and was tested on a Windows OS. For other OSs (e.g. Linux, Mac, Unix) please consider and use the appropriate Selenium web driver executables.
+The demo is only implemented for and evaluated with Selenium <b>Chrome</b> web driver and was tested on a Windows OS. For other OSs (e.g. Linux, Mac, Unix) please consider and use the appropriate **[Selenium web driver executables](https://www.npmjs.com/package/selenium-webdriver)**.
 
 * Install **Nodejs** together with **NPM** on your host system (see https://nodejs.org/en/download/).
 * Install the **Selenium Webdriver Exe** from https://www.npmjs.com/package/selenium-webdriver. 
@@ -50,7 +50,7 @@ All required javascript libraries are installed automatically.
 ``` console
 npm start 
 ```
-* **Congratulations!!!** You should see how your chrome web browser starts and runs with the appropriate task that is solved via one of the three agents. Every agent performs for every task 10 x 1000 episodes in this run-through. So if you let run the demo it may take several days until all agents have finished the execution. The outcome for every performed task and agent will be a CSV file containing the episode number and collected mean reward value.
+* **Congratulations!!!** You should see how your chrome web browser starts and runs with the appropriate task that is solved via one of the three agents. Every agent performs for every task 10 x 1000 episodes in this run-through. So if you let run the demo it may take several days until all agents have finished the execution of all specified tasks. The outcome for every performed task and agent will be a CSV file containing the episode number and collected mean reward value.
 
 ![alt text](https://github.com/nmerkle/K-Cap2019_Demo/blob/master/screenshot.png "MiniWob++ Task execution")
 
