@@ -12,6 +12,8 @@ The demo is only implemented for and evaluated with Selenium <b>Chrome</b> web d
 * Install **Nodejs** together with **NPM** on your host system (see https://nodejs.org/en/download/).
 * Install the **Selenium Webdriver Exe** from https://www.npmjs.com/package/selenium-webdriver. 
 
+---
+
 ### How-to-install and execute the K-Cap-2019-Demo
 * Clone this repo to your host system.
 
