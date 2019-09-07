@@ -23,6 +23,16 @@ http-server
 ```
 MiniWob++ starts and its web tasks are accessible via http://localhost:8080/miniwob/.
 
+__Configuration of the Demo:__
+
+It is not required to change the configuration of the demo. However, you have the possibility to specify the web tasks that shall be executed as well as different parameters for the DQNN learning algorithm. The **[.env](https://github.com/nmerkle/K-Cap-2019-Demo/blob/master/.env)** configuration file contains all configurable parameters as key-value pairs. The following parameters can be defined:
+* TASK -- a comma seperated list of web task names. The listed tasks will be executed by the demo.
+* LEARNING_RATE -- the learning rate of the DQNN algorithm.
+* EPSILON -- Greedy value that specifies the likelihood of random actions.
+* EPISODES -- The number of episodes that shall be performed for a task.
+* ITERATIONS -- The number of task execution. 
+* BROWSER -- Supported browser. In this demo the Chrome web driver has been utilized. However, it is also possible to execute other browsers (e.g. Mozilla Firefox, Opera, etc.) if the appropriate Selenium web driver is installed on the host system.
+
 __Start Demo:__ 
 * Go into the **K-Cap-2019-Demo** directory and execute via command line: 
 ``` console
