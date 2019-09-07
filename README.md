@@ -15,8 +15,6 @@ The demo is only implemented for and evaluated with Selenium <b>Chrome</b> web d
 ### How-to-install and execute the K-Cap-2019-Demo
 * Clone this repo to your host system.
 
----
-
 __Start MiniWob Server:__ 
 * Unzip the **miniwob-plusplus zip** file in your cloned repo on your host system.
 * Change  via command line into directory **miniwob-plusplus/html/** and execute there:
