@@ -7,9 +7,9 @@ The MiniWob web task is represented by a simplified Markov Decision Process (MDP
 ![alt text](https://github.com/nmerkle/K-Cap-2019-Demo/blob/master/MDP.png "Simplified MDP for the considered web tasks")
 
 ### Preparations
-The demo is only implemented for and evaluated with Selenium <b>Chrome</b> web driver and was tested on a Windows OS. For other OSs (e.g. Linux, Mac, Unix) please consider and use the appropriate **[Selenium web driver executables](https://www.npmjs.com/package/selenium-webdriver)**.
+The demo is implemented for and evaluated with Selenium <b>Chrome</b> web driver and was tested on a Windows OS. For other OSs (e.g. Linux, Mac, Unix) please consider and use the appropriate **[Selenium web driver executables](https://www.npmjs.com/package/selenium-webdriver)**.
 
-* Install **Nodejs** together with **NPM** on your host system (see https://nodejs.org/en/download/).
+* Install **[Nodejs](https://nodejs.org/en/download/)** together with **NPM** on your host system.
 * Install the **Selenium Webdriver Exe** from https://www.npmjs.com/package/selenium-webdriver. 
 * Clone the **[MiniWob++](https://github.com/stanfordnlp/miniwob-plusplus)** repo to your host system.
 * Clone this repo to your host system.
