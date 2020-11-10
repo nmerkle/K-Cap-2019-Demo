@@ -2,9 +2,34 @@
 
 ## Preface
 > This demo presents an **excerpt** of the entire agent framework that has been implemented and is discussed in the **[K-Cap 2019 paper](https://dl.acm.org/doi/10.1145/3360901.3364417)**. The idea of this demo is to show how the **[Miniwob++](https://github.com/stanfordnlp/miniwob-plusplus)** benchmark was utilized for evaluating different agents (e.g. trained DQNN agent, untrained DQNN agent, rule-based agent) regarding warm-start and adaptivity to new tasks. Therefore, we pre-trained by the __simulation framework__ (see previous works **[[1]](http://few.vu.nl/~vbr240/semantics2018/Semantics_2018_paper_33.pdf)** and **[[2]](https://link.springer.com/chapter/10.1007/978-3-030-03667-6_16))** a **[DQNN](https://raw.githubusercontent.com/nmerkle/K-Cap-2019-Demo/master/MiniWobTask.json)** that is utilized by one of the agents (QLearnAgent), and created a **[JSON-LD task instance](https://raw.githubusercontent.com/nmerkle/K-Cap-2019-Demo/master/task.json)** representing the considered MiniWob web tasks. As we illustrate in the paper, the pre-trained agent outperforms the other agents regarding warm-start and success rate which is measured by the number of collected positive rewards. With this demo, we want to make our evaluation that we conducted for the K-Cap paper, reproducible for the reviewers of the K-Cap 2019 conference. 
+
 The MiniWob web task is represented by a simplified Markov Decision Process (MDP) (see following figure) that covers different web tasks (e.g. *click-button, click-button-sequence, choose-list, click-checkboxes-large, click-checkboxes-soft, click-checkboxes-transfer, click-checkboxes, book-flight, book-flight-nodelay*). For space reasons, we have left the flight booking tasks out of the MDP figure. The nodes of the MDP represent the states, while the arrows represent the actions that should be performed in the appropriate state. Every *state-action-state transition* has an assigned reward value *r*. The reward can range between the maximum reward of **+1** and the minimum negativ reward of **-1**. Regarding the transition probability, we assume that the execution of every action is equal likely so that the transition probability is computed by 1/#actions:
 
 ![alt text](https://github.com/nmerkle/K-Cap-2019-Demo/blob/master/MDP.png "Simplified MDP for the considered web tasks")
+
+### Citation of the Demo and Paper
+You can cite the K-Cap Demo or the corresponding paper by the following citation:
+```
+@inproceedings{DBLP:conf/kcap/MerkleP19,
+  author    = {Nicole Merkle and
+               Patrick Philipp},
+  editor    = {Mayank Kejriwal and
+               Pedro A. Szekely and
+               Rapha{\"{e}}l Troncy},
+  title     = {Cooperative Web Agents by Combining Semantic Technologies with Reinforcement
+               Learning},
+  booktitle = {Proceedings of the 10th International Conference on Knowledge Capture,
+               {K-CAP} 2019, Marina Del Rey, CA, USA, November 19-21, 2019},
+  pages     = {205--212},
+  publisher = {{ACM}},
+  year      = {2019},
+  url       = {https://doi.org/10.1145/3360901.3364417},
+  doi       = {10.1145/3360901.3364417},
+  timestamp = {Sun, 25 Oct 2020 22:55:43 +0100},
+  biburl    = {https://dblp.org/rec/conf/kcap/MerkleP19.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+```
 
 ### Preparations
 The demo is implemented for and evaluated with Selenium <b>Chrome</b> web driver and was tested on a Windows OS. For other OSs (e.g. Linux, Mac, Unix) please consider and use the appropriate **[Selenium web driver executables](https://www.npmjs.com/package/selenium-webdriver)**.
