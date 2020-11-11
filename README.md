@@ -7,6 +7,8 @@ The MiniWob web task is represented by a simplified Markov Decision Process (MDP
 
 ![alt text](https://github.com/nmerkle/K-Cap-2019-Demo/blob/master/MDP.png "Simplified MDP for the considered web tasks")
 
+---
+
 ### Citation of the Demo and Paper
 You can cite the K-Cap Demo or the corresponding paper by the following citation:
 ```
@@ -30,6 +32,8 @@ You can cite the K-Cap Demo or the corresponding paper by the following citation
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 ```
+
+---
 
 ### Preparations
 The demo is implemented for and evaluated with Selenium <b>Chrome</b> web driver and was tested on a Windows OS. For other OSs (e.g. Linux, Mac, Unix) please consider and use the appropriate **[Selenium web driver executables](https://www.npmjs.com/package/selenium-webdriver)**.
